@@ -1,0 +1,25 @@
+*{  
+    margin-left: 10px;
+}
+form {
+    background-color: #DCDCDC;
+    width: 350px;
+    border: 5px solid gray;
+    padding: 10px;
+}
+textarea {
+    width: 90%;
+    height: 100px;
+}
+.submit {
+    background-color: gray;
+    width: 60px;
+    padding:5px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-family: Cambria;
+}
+.margin {
+  margin-bottom: 15px;
+}

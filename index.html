@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lesson 6 Homework</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="description" content="SkillUP Homework 6">
+    <meta name="keywords" content="HTML form, HTML meta tag, CSS">
+    <meta name="author" content="Nina Tertychnyy">
+    <meta name="viewport" content="width=device-width,
+                                   initial-scale=1.0">
+  </head>
+  <body>
+    <h1>Lesson 6 homework</h1>
+    <form action="endpoint" method="POST">
+      <label for="name">Your Name(required)</label><br>
+      <input class="margin" type="text" name="name" id="name" required><br>
+
+      <label for="email">Your Email(required)</label><br>
+      <input class="margin" type="email" name="email" id="email" required><br>
+
+      <fieldset class="margin">
+        <legend>What's this all about?</legend>
+        <div>
+          <input type="checkbox" name="purpose1" value="hello" id="purpose1">
+          <label for="purpose1">Say hello</label>
+        </div> 
+
+        <div>
+          <input type="checkbox" name="purpose2" value="complain" id="purpose2">
+          <label for="purpose2">Complain</label>   
+        </div>
+
+        <div>
+          <input type="checkbox" name="purpose3" value="joke" id="purpose3">
+          <label for="purpose3">Share a joke</label>  
+        </div>  
+
+      </fieldset>
+      <label for="subject">Subject</label><br>
+      <select class="margin" class="subject" name="subject" id="subjet">
+        <option value="default" disabled selected>Please select</option>
+        <option value="hello">Say Hello</option>
+        <option value="complain">Complain</option>
+        <option value="joke">Share a joke</option>
+      </select><br>
+
+      <label for="comments">Your Message</label>
+      <textarea class="margin" class="textarea" name="comments" id="comments"></textarea>
+      <input class="submit" type="submit" value="SEND">
+    </form>
+  </body>
+</html>
